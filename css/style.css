@@ -3,16 +3,49 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
 }
 a {
   text-decoration: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* #region header */
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 button {
   cursor: pointer;
   font-family: 'Raleway', sans-serif;
@@ -59,6 +92,9 @@ button {
 /* #endregion header */
 
 /* #region solutions */
+.solut-context {
+  padding: 188px 316px 188px 316px;
+}
 .solutions {
   background-color: #2e2f42;
 }
@@ -69,8 +105,13 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .button-sol {
+  display: block;
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -90,12 +131,17 @@ button {
 .h-subject {
   background-color: #fcfcfc;
 }
+.list {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .desc {
   font-weight: 400;
@@ -109,6 +155,8 @@ button {
 /* #region team */
 .headline {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .h-caption {
   font-weight: 700;
@@ -118,6 +166,9 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  max-width: 162px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .item-capt {
   text-align: center;
@@ -130,6 +181,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .desk-capt {
   font-weight: 400;
@@ -144,6 +196,8 @@ button {
 /* #region portfolio */
 .s-heading {
   background-color: #fcfcfc;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .heading {
   font-weight: 700;
@@ -153,6 +207,9 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  max-width: 218px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .h-heading {
   font-weight: 500;
@@ -160,6 +217,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .p-heading {
   font-weight: 400;
@@ -173,6 +231,8 @@ button {
 /* #region footer */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-f {
   font-family: 'Raleway', sans-serif;
