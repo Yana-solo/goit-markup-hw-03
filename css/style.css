@@ -193,7 +193,7 @@ button {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.list-desk {
+.list-desc {
   width: calc((100% - 72px) / 4);
 }
 .desc {
@@ -224,11 +224,9 @@ button {
   margin-bottom: 72px;
 }
 .item-capt {
-  border-radius: 0px 0px 4px;
+  border-radius: 0px 0px 4px 4px;
   text-align: center;
   background-color: #ffffff;
-  /* display: flex; */
-  /* align-items:  */
 }
 .team-list {
   display: flex;
@@ -258,6 +256,7 @@ button {
 /* #endregion team */
 
 /* #region portfolio */
+
 .s-heading {
   background-color: #fcfcfc;
   padding-top: 120px;
@@ -304,6 +303,7 @@ button {
 .portfolio-title {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* #endregion portfolio */
 
