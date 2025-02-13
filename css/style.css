@@ -129,6 +129,7 @@ button {
 }
 .solutions {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .h-solutions {
   font-weight: 700;
@@ -154,14 +155,16 @@ button {
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
+  min-width: 169px;
+  height: 56px;
 }
-.buttont {
+/* .buttont {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
   gap: 10px;
-}
+} */
 .button-sol:hover,
 .button-sol:focus {
   color: (0, 0, 0, 0.15);
@@ -170,6 +173,9 @@ button {
 /* #endregion solutions */
 
 /* #region strategy */
+.strategy-section {
+  padding: 120px 0;
+}
 .h-subject {
   background-color: #fcfcfc;
 }
@@ -188,7 +194,7 @@ button {
   margin-bottom: 8px;
 }
 .list-desk {
-  width: ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .desc {
   font-weight: 400;
@@ -218,6 +224,7 @@ button {
   margin-bottom: 72px;
 }
 .item-capt {
+  border-radius: 0px 0px 4px;
   text-align: center;
   background-color: #ffffff;
   /* display: flex; */
@@ -229,7 +236,7 @@ button {
   gap: 24px;
 }
 .team-item {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .title-capt {
   font-weight: 500;
@@ -238,7 +245,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .desk-capt {
   font-weight: 400;
@@ -285,7 +292,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .p-heading {
   font-weight: 400;
@@ -296,6 +303,7 @@ button {
 }
 .portfolio-title {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 /* #endregion portfolio */
 
@@ -313,6 +321,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-style-f {
   color: #f4f4fd;
