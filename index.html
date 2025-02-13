@@ -25,22 +25,22 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  
+
   <!-- #region header -->
 
     <header class="header">
-      <div class="container"><nav class="nav-link">
-        <a class="logo" href="./index.html"
+      <div class="container header-container"><nav class="header-nav">
+        <a class="logo header-logo" href="./index.html"
           >Web<span class="logo-h">Studio</span></a
         >
-        <ul>
+        <ul class="header-list">
           <li><a class="nav-item" href="./index.html">Studio</a></li>
           <li><a class="nav-item" href="">Portfolio</a></li>
           <li><a class="nav-item" href="">Contacts</a></li>
         </ul>
       </nav>
       <address class="adress">
-        <ul>
+        <ul class="contacts-list">
           <li>
             <a class="adress-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -62,7 +62,7 @@
   <section class="solutions">
     <div class="container">
       <div class="solut-context"><h1 class="h-solutions">Effective Solutions for Your Business</h1>
-      <button class="button-sol" type="button">Order Service</button></div>
+      <button class="button-sol buttont" type="button">Order Service</button></div>
     </div>
       
     </section>
@@ -72,7 +72,7 @@
     <section>
       <div class="container"><h2 class="h-subject visually-hidden">description</h2>
       <ul class="list">
-        <li>
+        <li class="list-desc">
           <h3 class="subtitle">Strategy</h3>
           <p class="desc">
             Our goal is to identify the business problem to walk away with the
@@ -106,7 +106,7 @@
     <!-- #region team -->
     <section class="headline">
       <div class="container"><h2 class="h-caption">Our Team</h2>
-      <ul>
+      <ul class="team-list">
         <li class="item-capt">
           <img
             src="./images/mark.jpg"
@@ -114,13 +114,13 @@
             width="264"
             height="260"
           />
-          <h3 class="title-capt">Mark Guerrero</h3>
-          <p class="desk-capt">Product Designer</p>
+          <div class="team-item"><h3 class="title-capt">Mark Guerrero</h3>
+          <p class="desk-capt">Product Designer</p></div>
         </li>
         <li class="item-capt">
           <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260" />
-          <h3 class="title-capt">Tom Ford</h3>
-          <p class="desk-capt">Frontend Developer</p>
+          <div class="team-item"><h3 class="title-capt">Tom Ford</h3>
+          <p class="desk-capt">Frontend Developer</p></div>
         </li>
         <li class="item-capt">
           <img
@@ -129,8 +129,8 @@
             width="264"
             height="260"
           />
-          <h3 class="title-capt">Camila Garcia</h3>
-          <p class="desk-capt">Marketing</p>
+          <div class="team-item"><h3 class="title-capt">Camila Garcia</h3>
+          <p class="desk-capt">Marketing</p></div>
         </li>
         <li class="item-capt">
           <img
@@ -139,8 +139,8 @@
             width="264"
             height="260"
           />
-          <h3 class="title-capt">Daniel Wilson</h3>
-          <p class="desk-capt">UI Designer</p>
+         <div class="team-item"> <h3 class="title-capt">Daniel Wilson</h3>
+          <p class="desk-capt">UI Designer</p></div>
         </li>
       </ul></div>
     </section>
@@ -148,66 +148,71 @@
     <!-- #region portfolio -->
     <section class="s-heading">
       <div class="container"><h2 class="heading">Our Portfolio</h2>
-      <ul>
-        <li>
+      <ul class="portfolio-item">
+        <li class="portfolio-list">
           <img
             src="./images/banking.jpg"
             alt="banking app"
             width="360"
             height="300"
+            class="portfolio-images"
           />
-          <h3 class="h-heading">Banking App</h3>
-          <p class="p-heading">App</p>
+          <div class="portfolio-title"><h3 class="h-heading">Banking App</h3>
+          <p class="p-heading">App</p></div>
         </li>
 
-        <li>
+        <li class="portfolio-list">
           <img
             src="./images/cashless.jpg"
             alt="cashless payment"
             width="360"
             height="300"
+            class="portfolio-images"
           />
-          <h3 class="h-heading">Cashless Payment</h3>
-          <p class="p-heading">Marketing</p>
+          <div class="portfolio-title"><h3 class="h-heading">Cashless Payment</h3>
+          <p class="p-heading">Marketing</p></div>
         </li>
 
-        <li>
+        <li class="portfolio-list">
           <img
             src="./images/meditation.jpg"
             alt="meditation app"
             width="360"
             height="300"
+            class="portfolio-images"
           />
-          <h3 class="h-heading">Meditation App</h3>
-          <p class="p-heading">App</p>
+          <div class="portfolio-title"><h3 class="h-heading">Meditation App</h3>
+          <p class="p-heading">App</p></div>
         </li>
 
-        <li>
+        <li class="portfolio-list">
           <img
             src="./images/taxi.jpg"
             alt="taxi service"
             width="360"
             height="300"
+            class="portfolio-images"
           />
-          <h3 class="h-heading">Taxi Service</h3>
-          <p class="p-heading">Marketing</p>
+          <div class="portfolio-title"><h3 class="h-heading">Taxi Service</h3>
+          <p class="p-heading">Marketing</p></div>
         </li>
 
-        <li>
+        <li class="portfolio-list">
           <img
             src="./images/screen.jpg"
             alt="screen illustrations"
             width="360"
             height="300"
+            class="portfolio-images"
           />
-          <h3 class="h-heading">Screen Illustrations</h3>
-          <p class="p-heading">Design</p>
+          <div class="portfolio-title"><h3 class="h-heading">Screen Illustrations</h3>
+          <p class="p-heading">Design</p></div>
         </li>
 
-        <li>
-          <img src="./images/online.jpg" alt="online" width="360" height="300" />
-          <h3 class="h-heading">Online Courses</h3>
-          <p class="p-heading">Marketing</p>
+        <li class="portfolio-list">
+          <img src="./images/online.jpg" alt="online" width="360" height="300" class="portfolio-images"/>
+          <div class="portfolio-title"><h3 class="h-heading">Online Courses</h3>
+          <p class="p-heading">Marketing</p></div>
         </li>
       </ul></div>
     </section></main>
