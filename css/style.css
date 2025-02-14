@@ -41,8 +41,6 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-container {
   display: flex;
@@ -124,9 +122,7 @@ button {
 /* #endregion header */
 
 /* #region solutions */
-.solut-context {
-  padding: 188px 316px 188px 316px;
-}
+
 .solutions {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -180,8 +176,6 @@ button {
   background-color: #fcfcfc;
 }
 .list {
-  padding-top: 120px;
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
 }
@@ -219,7 +213,6 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  max-width: 162px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -281,7 +274,6 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  max-width: 218px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -334,6 +326,5 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  padding-top: 16px;
 }
 /* #endregion footer */
